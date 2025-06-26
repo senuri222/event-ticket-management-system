@@ -1,0 +1,103 @@
+package com.example.backend.dto;
+
+import com.example.backend.entity.Ticket;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+@Component
+public class EventDTO {
+    private int eventid;
+    private String eventName;
+    private String date;
+    private String location;
+    private String eventDescription;
+    private int totalTickets;
+    private float ticketPrice;
+    private int soldTickets;
+    private String status;
+    private List<Ticket> tickets;
+
+    public EventDTO() {
+
+    }
+
+    public float getTicketPrice() {
+        return ticketPrice;
+    }
+
+    public void setTicketPrice(float ticketPrice) {
+        this.ticketPrice = ticketPrice;
+    }
+
+    public int getEventid() {
+        return eventid;
+    }
+
+    public void setEventid(int eventid) {
+        this.eventid = eventid;
+    }
+
+    public String getEventName() {
+        return eventName;
+    }
+
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getEventDescription() {
+        return eventDescription;
+    }
+
+    public void setEventDescription(String eventDescription) {
+        this.eventDescription = eventDescription;
+    }
+
+    public int getTotalTickets() {
+        return totalTickets;
+    }
+
+    public void setTotalTickets(int totalTickets) {
+        this.totalTickets = totalTickets;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public List<Ticket> getTickets() {
+        return tickets;
+    }
+
+    public void setTickets(List<Ticket> tickets) {
+        this.tickets = tickets;
+    }
+
+    public int getSoldTickets() {
+        return soldTickets;
+    }
+
+    public void setSoldTickets(int soldTickets) {
+        this.soldTickets = soldTickets;
+    }
+}
