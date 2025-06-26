@@ -42,7 +42,7 @@ npm start
 The React app will typically run at http://localhost:3000, and the Spring Boot API at http://localhost:8080.
 
 ## 📊 Project Structure
-
+<pre> ```
 movie-ticket-management-system/
 ├── backend/         # Spring Boot backend
 │   ├── src/
@@ -53,7 +53,7 @@ movie-ticket-management-system/
 │   ├── package.json
 │   └── ...
 └── README.md
-
+ ``` </pre>
 ## 📽️ Demonstration
 (You can add a link to a YouTube video or upload screenshots here)
 
