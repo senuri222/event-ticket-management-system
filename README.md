@@ -1,4 +1,4 @@
-# Movie Ticket Management System 🎟️
+# Event Ticket Management System 🎟️
 
 A real-time movie ticket management system built with React.js and Spring Boot.  
 This project simulates a dynamic environment where multiple vendors release movie tickets and multiple customers purchase them concurrently. It uses the Producer-Consumer pattern to handle concurrency and ensure data integrity.
